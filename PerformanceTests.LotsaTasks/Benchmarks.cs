@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 namespace PerformanceTests.LotsaTasks
 {
     [MemoryDiagnoser]
+    [MarkdownExporter]
     public class Benchmarks
     {
         [Params(2, 20, 200, 2_000, 20_000)]

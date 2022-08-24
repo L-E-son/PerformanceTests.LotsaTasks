@@ -19,7 +19,7 @@ namespace PerformanceTests.LotsaTasks
 
         public TaskContainer(IEnumerable<Task> tasks)
         {
-            foreach(var task in tasks)
+            foreach (var task in tasks)
             {
                 this.RegisterTask(task);
             }
